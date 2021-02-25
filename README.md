@@ -32,7 +32,8 @@ name to the day of the week that you have that class. Here is an example:
 
 Days of the week are: M = Monday, T, W, R, F, S, U.
 
-###calendar.json
+### calendar.json
+
 `calendar.json` represents the school's academic calendar. Namely, the start
 date, the end date, and vacation days. The provided calendar.json is the
 Cornell Spring 2015 calendar. Here it is with some comments:
