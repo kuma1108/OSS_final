@@ -2,7 +2,7 @@
 OSS_02분반
 21900055 금아현
 
-youtube: 
+youtube: https://youtu.be/Ew9AWqZoFX4
 
 ## PROJECT: Let's Study!
 ### What Does This Project Do
