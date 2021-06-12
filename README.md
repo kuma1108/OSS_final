@@ -4,7 +4,7 @@ OSS_02분반
 
 youtube: 
 
-## Let's Study!
+## PROJECT: Let's Study!
 ### What Does This Project Do
 This program helps you to study better. According to your class schedule and school's academic calendar, this program creates a schedule for when to review your lectures.
 
