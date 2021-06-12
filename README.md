@@ -1,10 +1,13 @@
 # 2021_Spring OSS FINAL
+OSS_02분반
+21900055 금아현
+youtube: 
 
 ## Study Planner
-## What Does This Project Do
+### What Does This Project Do
 This program helps you to study better. According to your class schedule and school's academic calendar, this program creates a schedule for when to review your lectures.
 
-## Why is This Project Useful?
+### Why is This Project Useful?
 This program suggests to review a lecture at least three times(a day, a week, and a month after you first listened to a lecture). It would encourage your academic achievement by ensuring the material stays in your (relatively) long term memory.
 
 ### Contribution
