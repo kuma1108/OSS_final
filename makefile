@@ -4,5 +4,8 @@ run: final text
 final: text
 	today_info > today_info.html
 	
-text:	
+text: schedule
 	python today.py
+
+schedule: 
+	python planner.py

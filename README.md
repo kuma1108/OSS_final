@@ -1,20 +1,36 @@
-# StudyPlanner
-This program is used to help you study better. Given a class schedule and your
-school's academic calendar, this script creates a schedule for when to review
-your lecture notes. Specifically, study a lecture a day, a week, and a month
-(4 weeks) after you first listened to a lecture. This ensures that the material
-stays in your (relatively) long term memory, reducing the need to cram for
-exams.
+# 2021_Spring OSS FINAL
 
-### Usage
-Edit classes.json and calendar.json (see sections below) and then run the
-following:
+##Study Planner
+##What Does This Project Do
+This program helps you to study better. According to your class schedule and school's academic calendar, this program creates a schedule for when to review your lectures.
+
+##Why is This Project Useful?
+This program suggests to review a lecture at least three times(a day, a week, and a month after you first listened to a lecture). It would encourage your academic achievement by ensuring the material stays in your (relatively) long term memory.
+
+### Contribution
+This project is from https://github.com/vitchyr/StudyPlanner
+
+The original project creates a semester-long schedule with corresponding dates. I selected the schedules for a day, so that the user could easily recognize the day planner
+
+I also made a webpage for checking daily schedule, in order to easily access. It automatically updates the schedule according to the current day.
+
+To do this, I modified some codes to make the data appropriate for extracting, and for printing on a webpage, and created a makefile to make it easier. 
+
+### Install Requirements
+Python
+
+Every requisites are written in 'requirements.txt'
+You can simply install them by
 ```
-python planner.py [savefile]
+pip install -r requirements.txt
 ```
-This script requires 2 files to exist in the same directory as `planner.py`:
-`classes.json` and `calendar.json`. The `savefile` parameter is optional (see
- Output section).
+
+### How to Use
+Edit classes.json and calendar.json and then run:
+```
+make
+```
+
 
 ### classes.json
 `classes.json` represents your class schedule. It's a dictionary from a class
@@ -58,22 +74,5 @@ Cornell Spring 2015 calendar. Here it is with some comments:
 }
 ```
 
-### Output
-The output is saved to `study_schedule.txt` or the `savefile` if provided.
-If the file already exists, this script fails. Here is a sample output:
-```
-02/11
-  CS 4752 Lec 7, 02/04 (Week)
-  ECE 3400 Lec 7, 02/04 (Week)
-  ECE 4730 Lec 5, 02/04 (Week)
-  CS 4670 Lec 7, 02/04 (Week)
-  ECE 4250 Lec 6, 02/10 (Day)
-02/12
-  ECE 4250 Lec 5, 02/05 (Week)
-  CS 4752 Lec 10, 02/11 (Day)
-  ECE 3400 Lec 10, 02/11 (Day)
-  ...
-```
-The recommended use of this output is to treat it like a TODO list. Delete
-each row after you finish reviewing your lecture notes from that day.
-Of course, feel free to do whatever you want with this.
+###Where Can I Get More Help, If I NEED?
+Please contact me 21900055@handong.edu
