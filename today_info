@@ -1,0 +1,21 @@
+#!/bin/bash
+
+CURRENT_TIME=$(date)
+TITLE="Study Schedule for Today"
+TIMESTAMP="Generated $CURRENT_TIME, by $USER"
+SCHEDULE=$(cat today.txt)
+
+echo "<HTML>
+	<HEAD>
+		<TITLE>$TITLE</TITLE>
+	</HEAD>
+	<BODY>
+		<h1>$TITLE</h1>
+		<p>$SCHEDULE</p>
+		<br>
+		<br>
+		<p>$TIMESTAMP</p>
+	</BODY>
+</HTML>"
+		
+

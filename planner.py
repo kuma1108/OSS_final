@@ -83,9 +83,8 @@ def create_schedule(cal_fname, classes_fname, save_fname):
     date = fdoc
     for lectures in study_schedule:
       if len(lectures) != 0:
-        outfile.write("{0}\n".format(date.strftime("%m/%d")))
         for l in lectures:
-          outfile.write("  {0}\n".format(l))
+            outfile.write("{0}: {1}\n".format(date.strftime("%m/%d"),l))
       date += datetime.timedelta(days=1)
 
 if __name__ == '__main__':
